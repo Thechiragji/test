@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AS Tour & Travels - Your trusted travel partner for flights, hotels, cabs, visa services and tour packages">
+    <title>AS Tour & Travels - Plan Your Perfect Journey</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>AS Tour & Travels</h1>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#packages" class="nav-link">Packages</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Plan Your Perfect Journey With Us</h2>
+            <p class="hero-subtitle">Discover amazing destinations, create unforgettable memories, and experience the journey of a lifetime</p>
+            <div class="hero-buttons">
+                <a href="#packages" class="btn btn-primary">Book Now</a>
+                <a href="https://wa.me/919876543210" target="_blank" class="btn btn-secondary">WhatsApp Contact</a>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <div class="search-field">
+                    <label for="destination">Destination</label>
+                    <input type="text" id="destination" placeholder="Where to?">
+                </div>
+                <div class="search-field">
+                    <label for="date">Travel Date</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="search-field">
+                    <label for="budget">Budget</label>
+                    <select id="budget">
+                        <option value="">Select Budget</option>
+                        <option value="low">Under ₹20,000</option>
+                        <option value="medium">₹20,000 - ₹50,000</option>
+                        <option value="high">₹50,000 - ₹1,00,000</option>
+                        <option value="luxury">Above ₹1,00,000</option>
+                    </select>
+                </div>
+                <button class="btn btn-search">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Complete travel solutions for your journey</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✈️</div>
+                    <h3>Flight Booking</h3>
+                    <p>Get the best deals on domestic and international flights with instant confirmation</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚂</div>
+                    <h3>Train Booking</h3>
+                    <p>Book train tickets across India with ease and convenience</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏨</div>
+                    <h3>Hotel Booking</h3>
+                    <p>Comfortable stays at handpicked hotels and resorts worldwide</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚕</div>
+                    <h3>Cab Services</h3>
+                    <p>Reliable and affordable cab services for local and outstation travel</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Passport & Visa</h3>
+                    <p>Complete assistance for passport and visa applications</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏔️</div>
+                    <h3>Char Dham Yatra</h3>
+                    <p>Sacred pilgrimage packages with complete travel arrangements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Packages Section -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular Tour Packages</h2>
+                <p class="section-subtitle">Handpicked destinations for your next adventure</p>
+            </div>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                        <span class="package-badge">Popular</span>
+                    </div>
+                    <div class="package-content">
+                        <h3>Manali Honeymoon Package</h3>
+                        <div class="package-details">
+                            <span class="package-duration">🕒 5 Days / 4 Nights</span>
+                            <span class="package-price">₹24,999</span>
+                        </div>
+                        <p>Romantic getaway in the Himalayas with cozy stays and adventure activities</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.pexels.com/photos/1179156/pexels-photo-1179156.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                        <span class="package-badge">Trending</span>
+                    </div>
+                    <div class="package-content">
+                        <h3>Goa Beach Paradise</h3>
+                        <div class="package-details">
+                            <span class="package-duration">🕒 4 Days / 3 Nights</span>
+                            <span class="package-price">₹18,999</span>
+                        </div>
+                        <p>Sun, sand, and sea with beach resorts and water sports</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.pexels.com/photos/3889855/pexels-photo-3889855.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                        <span class="package-badge">Best Seller</span>
+                    </div>
+                    <div class="package-content">
+                        <h3>Kerala Backwaters</h3>
+                        <div class="package-details">
+                            <span class="package-duration">🕒 6 Days / 5 Nights</span>
+                            <span class="package-price">₹32,999</span>
+                        </div>
+                        <p>Experience the serene backwaters with houseboat stays and Ayurvedic spa</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                    </div>
+                    <div class="package-content">
+                        <h3>Rajasthan Heritage Tour</h3>
+                        <div class="package-details">
+                            <span class="package-duration">🕒 7 Days / 6 Nights</span>
+                            <span class="package-price">₹42,999</span>
+                        </div>
+                        <p>Explore royal palaces, forts, and vibrant culture of Rajasthan</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                    </div>
+                    <div class="package-content">
+                        <h3>Ladakh Adventure</h3>
+                        <div class="package-details">
+                            <span class="package-duration">🕒 8 Days / 7 Nights</span>
+                            <span class="package-price">₹54,999</span>
+                        </div>
+                        <p>Breathtaking landscapes, monasteries, and high-altitude lakes</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.pexels.com/photos/1583339/pexels-photo-1583339.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                    </div>
+                    <div class="package-content">
+                        <h3>Char Dham Yatra</h3>
+                        <div class="package-details">
+                            <span class="package-duration">🕒 10 Days / 9 Nights</span>
+                            <span class="package-price">₹38,999</span>
+                        </div>
+                        <p>Sacred pilgrimage to Yamunotri, Gangotri, Kedarnath, and Badrinath</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Us</h2>
+                <p class="section-subtitle">Your trusted travel partner since 2015</p>
+            </div>
+            <div class="why-us-grid">
+                <div class="why-us-card">
+                    <div class="why-us-icon">🏆</div>
+                    <h3>Trusted Agency</h3>
+                    <p>Over 8 years of excellence in travel services with thousands of happy customers</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">💰</div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Best prices guaranteed with transparent pricing and no hidden charges</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">🎧</div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support for all your travel needs and emergencies</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">👥</div>
+                    <h3>Experienced Team</h3>
+                    <p>Dedicated travel experts to plan and execute your perfect journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Travel Gallery</h2>
+                <p class="section-subtitle">Moments captured from incredible journeys</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" style="background-image: url('https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
+                <div class="gallery-item" style="background-image: url('https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
+                <div class="gallery-item" style="background-image: url('https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
+                <div class="gallery-item" style="background-image: url('https://images.pexels.com/photos/1531660/pexels-photo-1531660.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
+                <div class="gallery-item" style="background-image: url('https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
+                <div class="gallery-item" style="background-image: url('https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
+                <div class="gallery-item" style="background-image: url('https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
+                <div class="gallery-item" style="background-image: url('https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=600')"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Real experiences from real travelers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Amazing experience with AS Tour & Travels! Our Manali trip was perfectly organized. The hotel was great, and the cab service was excellent. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <h4>Priya Sharma</h4>
+                        <p>Manali Package</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Best travel agency in town! They handled our Kerala trip from start to finish. The houseboat experience was unforgettable. Great value for money!"</p>
+                    <div class="testimonial-author">
+                        <h4>Rahul Verma</h4>
+                        <p>Kerala Backwaters Package</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Professional and courteous service. They helped us with visa processing and booked our entire Dubai trip. Everything went smoothly. Thank you AS Tours!"</p>
+                    <div class="testimonial-author">
+                        <h4>Anjali Patel</h4>
+                        <p>International Tour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let us help you plan your next adventure</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your travel plans" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                    <div class="whatsapp-contact">
+                        <a href="https://wa.me/919876543210" target="_blank" class="btn btn-whatsapp">
+                            <span>📱</span> Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h4>Visit Us</h4>
+                        <p>123 Travel Street, MG Road<br>Bangalore, Karnataka 560001</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h4>Call Us</h4>
+                        <p>+91 98765 43210<br>+91 98765 43211</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <h4>Email Us</h4>
+                        <p>info@astours.com<br>support@astours.com</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8526826993267!2d77.5945627!3d12.9715987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1234567890"
+                                width="100%"
+                                height="250"
+                                style="border:0; border-radius: 12px;"
+                                allowfullscreen=""
+                                loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AS Tour & Travels</h3>
+                    <p>Your trusted travel partner for creating unforgettable memories. We specialize in customized tour packages, hotel bookings, cab services, and visa assistance.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#packages">Tour Packages</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Flight Booking</a></li>
+                        <li><a href="#services">Train Booking</a></li>
+                        <li><a href="#services">Hotel Booking</a></li>
+                        <li><a href="#services">Cab Services</a></li>
+                        <li><a href="#services">Visa Assistance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>📍 123 Travel Street, MG Road<br>Bangalore, Karnataka 560001</li>
+                        <li>📞 +91 98765 43210</li>
+                        <li>✉️ info@astours.com</li>
+                        <li>🕒 Mon - Sat: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AS Tour & Travels. All rights reserved. Designed with passion for travelers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
